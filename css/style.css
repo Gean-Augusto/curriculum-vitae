@@ -1,0 +1,29 @@
+.titulo{
+    color: red;
+}
+.retangulo{
+    display: flex;
+    width: 600px;
+    height: 400px;
+    background-color: green;
+
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.losangulo{
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+    transform: rotate(45deg)
+}
+.circulo{
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    background-color: blue;
+    margin: 2rem;
+}
